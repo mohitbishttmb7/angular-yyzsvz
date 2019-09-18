@@ -10,3 +10,14 @@ p {
   border-radius:5px;
   background:linear-gradient(-140deg,rgb(67, 159, 245),rgb(241, 83, 255));
 }
+span{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:20px;
+  height:20px;
+  background: #fff;
+  box-shadow:0 0 1px 15px rgb(49, 156, 228),0 0 1px 30px #fff, 0 0 60px 20px rgba(0,0,0,0.5);
+  border-radius:50%;
+}
